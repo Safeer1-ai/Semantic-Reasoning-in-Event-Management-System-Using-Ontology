@@ -1,0 +1,1124 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/event-management"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/event-management">
+    <Prefix name="" IRI="http://www.semanticweb.org/event-management/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Attendee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BirthdayParty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caterer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChairPerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DancePerformer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decorator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EveningTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event_Management_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinanceManager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_Attendees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LogisticsCoordinator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarketingLead"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MorningTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MusicalPerformer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganizationalRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outdoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Party"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Performer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Photographer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Schedule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoundSystemProvider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speaker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VIP_Guests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vendor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Venue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wedding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attendsEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#capturesEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#decoratesEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAttendee"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSchedule"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVendor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVenue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#overseesEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performsAt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#providesCaterer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reportsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#soundProvider"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#speakAt"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AttendeeRegistrationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#attendeeEmail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#attendeeName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#attendeePhoneNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#eventDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#eventDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#eventLocation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasResponsibilities"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSalary"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#performanceType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#vendorContact"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#vendorService"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#venueAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#venueCapacity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AbdulWadood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abdullah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adnan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aftab_Ahmed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ahmad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BestVendorService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CookingClass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EliteCatering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Event_Conference2024"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GrandHallVenue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Haris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HarisGroup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ICPOLH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IDEAS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Imtiaz_Ali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kamran"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MoonDecorator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MorningTimeABsWedding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MusicConcent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MusicConcert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obaid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PhotographyPro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Safeer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SafeerAhmedKhan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SafeerBirthday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Safeer_Ahmed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sami"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SamiWedding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ShazainBirthday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sheraz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ShoukatGroup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SoundPro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SparkalPark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TheSoundPro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WeddingEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WeddingParty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zeeshan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Attendee"/>
+        <Class IRI="#Event_Management_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BirthdayParty"/>
+        <Class IRI="#Party"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caterer"/>
+        <Class IRI="#Vendor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChairPerson"/>
+        <Class IRI="#OrganizationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concert"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conference"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DancePerformer"/>
+        <Class IRI="#Performer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decorator"/>
+        <Class IRI="#Vendor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EveningTime"/>
+        <Class IRI="#Schedule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <Class IRI="#Event_Management_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinanceManager"/>
+        <Class IRI="#OrganizationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Attendees"/>
+        <Class IRI="#Guest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guest"/>
+        <Class IRI="#Attendee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indoor"/>
+        <Class IRI="#Venue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LogisticsCoordinator"/>
+        <Class IRI="#OrganizationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarketingLead"/>
+        <Class IRI="#OrganizationalRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MorningTime"/>
+        <Class IRI="#Schedule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MusicalPerformer"/>
+        <Class IRI="#Performer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganizationalRole"/>
+        <Class IRI="#Event_Management_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outdoor"/>
+        <Class IRI="#Venue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Party"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Performer"/>
+        <Class IRI="#Attendee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Photographer"/>
+        <Class IRI="#Vendor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Schedule"/>
+        <Class IRI="#Event_Management_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoundSystemProvider"/>
+        <Class IRI="#Vendor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speaker"/>
+        <Class IRI="#Attendee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VIP_Guests"/>
+        <Class IRI="#Guest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vendor"/>
+        <Class IRI="#Event_Management_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Venue"/>
+        <Class IRI="#Event_Management_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wedding"/>
+        <Class IRI="#Party"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Event"/>
+        <Class IRI="#Venue"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Wedding"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LogisticsCoordinator"/>
+        <NamedIndividual IRI="#AbdulWadood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="#Abdullah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MarketingLead"/>
+        <NamedIndividual IRI="#Adnan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VIP_Guests"/>
+        <NamedIndividual IRI="#Aftab_Ahmed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attendee"/>
+        <NamedIndividual IRI="#Ahmad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FinanceManager"/>
+        <NamedIndividual IRI="#Amir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vendor"/>
+        <NamedIndividual IRI="#BestVendorService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#CookingClass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Caterer"/>
+        <NamedIndividual IRI="#EliteCatering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vendor"/>
+        <NamedIndividual IRI="#EliteCatering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#Event_Conference2024"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Indoor"/>
+        <NamedIndividual IRI="#GrandHallVenue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Venue"/>
+        <NamedIndividual IRI="#GrandHallVenue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#General_Attendees"/>
+        <NamedIndividual IRI="#Haris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DancePerformer"/>
+        <NamedIndividual IRI="#HarisGroup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ICPOLH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#IDEAS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VIP_Guests"/>
+        <NamedIndividual IRI="#Imtiaz_Ali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#General_Attendees"/>
+        <NamedIndividual IRI="#Kamran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Decorator"/>
+        <NamedIndividual IRI="#MoonDecorator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MorningTime"/>
+        <NamedIndividual IRI="#MorningTimeABsWedding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Concert"/>
+        <NamedIndividual IRI="#MusicConcent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#MusicConcert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#Obaid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photographer"/>
+        <NamedIndividual IRI="#PhotographyPro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attendee"/>
+        <NamedIndividual IRI="#Saad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guest"/>
+        <NamedIndividual IRI="#Safeer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChairPerson"/>
+        <NamedIndividual IRI="#SafeerAhmedKhan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BirthdayParty"/>
+        <NamedIndividual IRI="#SafeerBirthday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="#Safeer_Ahmed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VIP_Guests"/>
+        <NamedIndividual IRI="#Sami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#SamiWedding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BirthdayParty"/>
+        <NamedIndividual IRI="#ShazainBirthday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Performer"/>
+        <NamedIndividual IRI="#Sheraz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MusicalPerformer"/>
+        <NamedIndividual IRI="#ShoukatGroup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SoundSystemProvider"/>
+        <NamedIndividual IRI="#SoundPro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Outdoor"/>
+        <NamedIndividual IRI="#SparkalPark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vendor"/>
+        <NamedIndividual IRI="#TheSoundPro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#WeddingEvent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#WeddingParty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attendee"/>
+        <NamedIndividual IRI="#Zain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#General_Attendees"/>
+        <NamedIndividual IRI="#Zeeshan"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAttendee"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+        <NamedIndividual IRI="#Safeer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSchedule"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+        <NamedIndividual IRI="#MorningTimeABsWedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVendor"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+        <NamedIndividual IRI="#EliteCatering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVendor"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+        <NamedIndividual IRI="#MoonDecorator"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVendor"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+        <NamedIndividual IRI="#PhotographyPro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVenue"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+        <NamedIndividual IRI="#GrandHallVenue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attendsEvent"/>
+        <NamedIndividual IRI="#Aftab_Ahmed"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAttendee"/>
+        <NamedIndividual IRI="#Ahmad"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#providesCaterer"/>
+        <NamedIndividual IRI="#EliteCatering"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#providesCaterer"/>
+        <NamedIndividual IRI="#EliteCatering"/>
+        <NamedIndividual IRI="#SafeerBirthday"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVenue"/>
+        <NamedIndividual IRI="#Event_Conference2024"/>
+        <NamedIndividual IRI="#GrandHallVenue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attendsEvent"/>
+        <NamedIndividual IRI="#Haris"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAttendee"/>
+        <NamedIndividual IRI="#ICPOLH"/>
+        <NamedIndividual IRI="#Safeer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#speakAt"/>
+        <NamedIndividual IRI="#ICPOLH"/>
+        <NamedIndividual IRI="#ICPOLH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#speakAt"/>
+        <NamedIndividual IRI="#IDEAS"/>
+        <NamedIndividual IRI="#Safeer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attendsEvent"/>
+        <NamedIndividual IRI="#Imtiaz_Ali"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attendsEvent"/>
+        <NamedIndividual IRI="#Kamran"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#decoratesEvent"/>
+        <NamedIndividual IRI="#MoonDecorator"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSchedule"/>
+        <NamedIndividual IRI="#MorningTimeABsWedding"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAttendee"/>
+        <NamedIndividual IRI="#MusicConcent"/>
+        <NamedIndividual IRI="#Sheraz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVendor"/>
+        <NamedIndividual IRI="#MusicConcent"/>
+        <NamedIndividual IRI="#SoundPro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAttendee"/>
+        <NamedIndividual IRI="#MusicConcert"/>
+        <NamedIndividual IRI="#Ahmad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVenue"/>
+        <NamedIndividual IRI="#MusicConcert"/>
+        <NamedIndividual IRI="#GrandHallVenue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAttendee"/>
+        <NamedIndividual IRI="#Obaid"/>
+        <NamedIndividual IRI="#Event_Conference2024"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#capturesEvent"/>
+        <NamedIndividual IRI="#PhotographyPro"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAttendee"/>
+        <NamedIndividual IRI="#Saad"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#speakAt"/>
+        <NamedIndividual IRI="#Safeer_Ahmed"/>
+        <NamedIndividual IRI="#IDEAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attendsEvent"/>
+        <NamedIndividual IRI="#Sami"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performsAt"/>
+        <NamedIndividual IRI="#Sheraz"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performsAt"/>
+        <NamedIndividual IRI="#Sheraz"/>
+        <NamedIndividual IRI="#ICPOLH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#soundProvider"/>
+        <NamedIndividual IRI="#SoundPro"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#soundProvider"/>
+        <NamedIndividual IRI="#SoundPro"/>
+        <NamedIndividual IRI="#MusicConcent"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#soundProvider"/>
+        <NamedIndividual IRI="#SoundPro"/>
+        <NamedIndividual IRI="#SafeerBirthday"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAttendee"/>
+        <NamedIndividual IRI="#WeddingParty"/>
+        <NamedIndividual IRI="#Saad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAttendee"/>
+        <NamedIndividual IRI="#WeddingParty"/>
+        <NamedIndividual IRI="#Zain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVendor"/>
+        <NamedIndividual IRI="#WeddingParty"/>
+        <NamedIndividual IRI="#EliteCatering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAttendee"/>
+        <NamedIndividual IRI="#Zain"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attendsEvent"/>
+        <NamedIndividual IRI="#Zeeshan"/>
+        <NamedIndividual IRI="#ABsWedding"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasResponsibilities"/>
+        <NamedIndividual IRI="#AbdulWadood"/>
+        <Literal>Oversees Setup</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSalary"/>
+        <NamedIndividual IRI="#AbdulWadood"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">45000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasResponsibilities"/>
+        <NamedIndividual IRI="#Adnan"/>
+        <Literal>promotes Event etc.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSalary"/>
+        <NamedIndividual IRI="#Adnan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasResponsibilities"/>
+        <NamedIndividual IRI="#Amir"/>
+        <Literal>Managing the budget and finance</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSalary"/>
+        <NamedIndividual IRI="#Amir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">45000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasResponsibilities"/>
+        <NamedIndividual IRI="#SafeerAhmedKhan"/>
+        <Literal>Oversees the entire event</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSalary"/>
+        <NamedIndividual IRI="#SafeerAhmedKhan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">100000</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#attendsEvent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAttendee"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVendor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVenue"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#attendsEvent"/>
+        <ObjectProperty IRI="#hasAttendee"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasAttendee"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasAttendee"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attendsEvent"/>
+        <Class IRI="#Attendee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#capturesEvent"/>
+        <Class IRI="#Photographer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#decoratesEvent"/>
+        <Class IRI="#Decorator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAttendee"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSchedule"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVendor"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVenue"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#overseesEvent"/>
+        <Class IRI="#OrganizationalRole"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsAt"/>
+        <Class IRI="#Performer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#providesCaterer"/>
+        <Class IRI="#Caterer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#soundProvider"/>
+        <Class IRI="#SoundSystemProvider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#speakAt"/>
+        <Class IRI="#Speaker"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attendsEvent"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#capturesEvent"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#decoratesEvent"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAttendee"/>
+        <Class IRI="#Attendee"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSchedule"/>
+        <Class IRI="#Schedule"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVendor"/>
+        <Class IRI="#Vendor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVenue"/>
+        <Class IRI="#Venue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#overseesEvent"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsAt"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#providesCaterer"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#reportsTo"/>
+        <Class IRI="#ChairPerson"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#soundProvider"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#speakAt"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#attendeeName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#eventLocation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#AttendeeRegistrationDate"/>
+        <Class IRI="#Attendee"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#attendeeEmail"/>
+        <Class IRI="#Attendee"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#attendeeName"/>
+        <Class IRI="#Attendee"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#attendeePhoneNumber"/>
+        <Class IRI="#Attendee"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#eventDate"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#eventDescription"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#eventLocation"/>
+        <Class IRI="#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasResponsibilities"/>
+        <Class IRI="#OrganizationalRole"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSalary"/>
+        <Class IRI="#OrganizationalRole"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#performanceType"/>
+        <Class IRI="#Performer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#vendorContact"/>
+        <Class IRI="#Vendor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#vendorService"/>
+        <Class IRI="#Vendor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#venueAddress"/>
+        <Class IRI="#Venue"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#venueCapacity"/>
+        <Class IRI="#Venue"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#AttendeeRegistrationDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#attendeeEmail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#attendeeName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#attendeePhoneNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#eventDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#eventDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#eventLocation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasResponsibilities"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSalary"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#performanceType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#vendorContact"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#vendorService"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#venueAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#venueCapacity"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CookingClass</IRI>
+        <Literal>CookingClass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MusicConcert</IRI>
+        <Literal>MusicConcert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WeddingEvent</IRI>
+        <Literal>WeddingEvent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAttendee</IRI>
+        <Literal>hasAttendee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasSchedule</IRI>
+        <Literal>hasSchedule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasVendor</IRI>
+        <Literal>hasVendor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasVenue</IRI>
+        <Literal>hasVenue</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
